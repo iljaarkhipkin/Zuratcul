@@ -1,0 +1,286 @@
+
+    body{
+    background-color: #555555;
+    color: black;
+    height: 100%;
+    }
+
+    .lnk{
+    display: block;
+    float: left;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    overflow: hidden;
+    }
+
+    .lnk .img{
+    position: relative;
+    z-index: 3;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    overflow: hidden;
+    display: table-cell;
+    height: 100px;
+    vertical-align: middle;
+    background-color: #555555;
+    }
+
+    img{
+    vertical-align: middle;
+    border: 0px;
+    width: 100px;
+    }
+
+    .lnk:hover:after{
+    content: " ";
+    }
+
+    .lnk:focus, .lnk:hover:after{
+    background-color: #555555;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: crosshair;
+    }
+    .cover, .lnk:hover:after, .lnk:focus{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    }
+
+    .hide:hover .img{
+    opacity: 0.01;
+    filter: alpha(opacity =1);
+    cursor: crosshair;
+    }
+
+.cover{
+z-index: 2;
+}
+    .lnk:focus{
+    z-index: 4;
+    }
+.lnk:focus .img{
+display: none;
+}
+    .lnk:focus  + .lnk {
+    position: fixed;
+    bottom: 20px;
+    right: 0px;
+    z-index: 4;
+    }
+    .lnk:focus  + .lnk .img{
+    opacity: 1;
+    filter: alpha(opacity =100);
+    border: 1px solid black;
+    }
+    .lnk:focus  + .lnk:after{
+    display: none;
+    }
+    #lnk0:focus, #lnk0:hover:after{
+    background-image: url('images/_G1L4241.JPG');
+    }
+    #lnk1:focus, #lnk1:hover:after{
+    background-image: url('images/_G1L4244.JPG');
+    }
+    #lnk2:focus, #lnk2:hover:after{
+    background-image: url('images/_G1L4244.JPG');
+    }
+    #lnk3:focus, #lnk3:hover:after{
+    background-image: url('images/_G1L4262.JPG');
+    }
+    #lnk4:focus, #lnk4:hover:after{
+    background-image: url('images/_G1L4264.JPG');
+    }
+    #lnk5:focus, #lnk5:hover:after{
+    background-image: url('images/1.JPG');
+    }
+    #lnk6:focus, #lnk6:hover:after{
+    background-image: url('images/4.JPG');
+    }
+    #lnk7:focus, #lnk7:hover:after{
+    background-image: url('images/IMG_0086.JPG');
+    }
+    #lnk8:focus, #lnk8:hover:after {
+        background-image: url('images/PICT0006.JPG')
+}
+#lnk9:focus, #lnk9:hover:after {
+        background-image: url('images/PICT0020.JPG')
+}
+#ln10:focus, #lnk10:hover:after {
+        background-image: url('images/PICT0022.JPG')
+}
+#lnk11:focus, #lnk11:hover:after {
+        background-image: url('images/PICT0024.JPG')
+}
+#lnk12:focus, #lnk12:hover:after {
+        background-image: url('images/PICT0032.JPG')
+}
+#lnk13:focus, #lnk13:hover:after {
+        background-image: url('images/PICT0038.JPG')
+}
+#lnk14:focus, #lnk14:hover:after {
+        background-image: url('images/PICT0655.JPG')
+}
+#lnk15:focus, #lnk15:hover:after {
+        background-image: url('images/SG1L1281.JPG')
+}
+#lnk16:focus, #lnk16:hover:after {
+        background-image: url('images/SG1L1357.JPG')
+}
+#lnk17:focus, #lnk17:hover:after {
+        background-image: url('images/SG1L1361.JPG')
+}
+#lnk18:focus, #lnk18:hover:after {
+        background-image: url('images/SG1L1389.JPG')
+}
+#lnk19:focus, #lnk19:hover:after {
+        background-image: url('images/SG1L1883.JPG')
+}
+#lnk20:focus, #lnk20:hover:after {
+        background-image: url('images/SG1L1927.JPG')
+}
+#lnk21:focus, #lnk21:hover:after {
+        background-image: url('http://phucet-botanicstory.org/images/P1050992.JPG')
+}
+#lnk22:focus, #lnk22:hover:after {
+        background-image: url('http://phucet-botanicstory.org/images/P1050991.JPG')
+}
+#lnk23:focus, #lnk23:hover:after {
+        background-image: url('http://phucet-botanicstory.org/images/P1050989.JPG')
+}
+#lnk24:focus, #lnk24:hover:after {
+        background-image: url('http://phucet-botanicstory.org/images/P1050972.JPG')
+}
+#lnk25:focus, #lnk25:hover:after {
+        background-image: url('http://phucet-botanicstory.org/images/P1050938.JPG')
+}
+#lnk26:focus, #lnk26:hover:after {
+        background-image: url('http://devwin.arhipkin.com/phucet-botanic/images/P1050941.JPG')
+}
+#lnk27:focus, #lnk27:hover:after {
+        background-image: url('http://devwin.arhipkin.com/phucet-botanic/images/P1050942.JPG')
+}
+#lnk28:focus, #lnk28:hover:after {
+        background-image: url('http://devwin.arhipkin.com/phucet-botanic/images/P1050947.JPG')
+}
+#lnk29:focus, #lnk29:hover:after {
+        background-image: url('http://devwin.arhipkin.com/phucet-botanic/images/P1050958.JPG')
+}
+#lnk30:focus, #lnk30:hover:after {
+        background-image: url('http://devwin.arhipkin.com/phucet-botanic/images/P1050967.JPG')
+}
+#lnk31:focus, #lnk31:hover:after {
+        background-image: url('http://devwin.arhipkin.com/phucet-botanic/images/P1050968.JPG')
+}
+#lnk32:focus, #lnk32:hover:after {
+        background-image: url('http://devwin.arhipkin.com/phucet-botanic/images/P1050969.JPG')
+}
+#lnk33:focus, #lnk33:hover:after {
+        background-image: url('http://devwin.arhipkin.com/phucet-botanic/images/P1050970.JPG')
+}
+#lnk34:focus, #lnk34:hover:after {
+        background-image: url('http://devwin.arhipkin.com/phucet-botanic/images/P1050971.JPG')
+}
+#lnk35:focus, #lnk35:hover:after {
+        background-image: url('http://devwin.arhipkin.com/phucet-botanic/images/P1050972.JPG')
+}
+#lnk36:focus, #lnk36:hover:after {
+        background-image: url('http://devwin.arhipkin.com/phucet-botanic/images/P1050973.JPG')
+}
+#lnk37:focus, #lnk37:hover:after {
+        background-image: url('http://devwin.arhipkin.com/phucet-botanic/images/P1050980.JPG')
+}
+#lnk38:focus, #lnk38:hover:after {
+        background-image: url('http://devwin.arhipkin.com/phucet-botanic/images/P1050981.JPG')
+}
+#lnk39:focus, #lnk39:hover:after {
+        background-image: url('http://devwin.arhipkin.com/phucet-botanic/images/P1050985.JPG')
+}
+#lnk40:focus, #lnk40:hover:after {
+        background-image: url('http://devwin.arhipkin.com/phucet-botanic/images/P1050986.JPG')
+}
+#lnk41:focus, #lnk41:hover:after {
+        background-image: url('http://devwin.arhipkin.com/phucet-botanic/images/P1050987.JPG')
+}
+#lnk42:focus, #lnk42:hover:after {
+        background-image: url('http://devwin.arhipkin.com/phucet-botanic/images/P1050988.JPG')
+}
+#lnk43:focus, #lnk43:hover:after {
+        background-image: url('http://devwin.arhipkin.com/phucet-botanic/images/P1050989.JPG')
+}
+#lnk44:focus, #lnk44:hover:after {
+        background-image: url('http://devwin.arhipkin.com/phucet-botanic/images/P1050991.JPG')
+}
+#lnk45:focus, #lnk45:hover:after {
+        background-image: url('http://devwin.arhipkin.com/phucet-botanic/images/P1050992.JPG')
+}
+#lnk46:focus, #lnk46:hover:after {
+        background-image: url('http://devwin.arhipkin.com/phucet-botanic/images/P1050993.JPG')
+}
+#lnk47:focus, #lnk47:hover:after {
+        background-image: url('http://devwin.arhipkin.com/phucet-botanic/images/P1050994.JPG')
+}
+#lnk48:focus, #lnk48:hover:after {
+        background-image: url('http://devwin.arhipkin.com/phucet-botanic/images/P1050995.JPG')
+}
+#lnk49:focus, #lnk49:hover:after {
+        background-image: url('http://devwin.arhipkin.com/phucet-botanic/images/P1050996.JPG')
+}
+#lnk50:focus, #lnk50:hover:after {
+        background-image: url('http://devwin.arhipkin.com/phucet-botanic/images/P1050997.JPG')
+}
+#lnk51:focus, #lnk51:hover:after {
+        background-image: url('http://devwin.arhipkin.com/phucet-botanic/images/P1050998.JPG')
+}
+#lnk52:focus, #lnk52:hover:after {
+        background-image: url('http://devwin.arhipkin.com/phucet-botanic/images/P1050999.JPG')
+}
+#lnk53:focus, #lnk53:hover:after {
+        background-image: url('http://devwin.arhipkin.com/phucet-botanic/images/P1060001.JPG')
+}
+#lnk54:focus, #lnk54:hover:after {
+        background-image: url('http://devwin.arhipkin.com/phucet-botanic/images/P1060002.JPG')
+}
+#lnk55:focus, #lnk55:hover:after {
+        background-image: url('http://devwin.arhipkin.com/phucet-botanic/images/P1060003.JPG')
+}
+#lnk56:focus, #lnk56:hover:after {
+        background-image: url('http://devwin.arhipkin.com/phucet-botanic/images/P1060004.JPG')
+}
+#lnk57:focus, #lnk57:hover:after {
+        background-image: url('http://devwin.arhipkin.com/phucet-botanic/images/P1060005.JPG')
+}
+#lnk58:focus, #lnk58:hover:after {
+        background-image: url('http://devwin.arhipkin.com/phucet-botanic/images/P1060006.JPG')
+}
+#lnk59:focus, #lnk59:hover:after {
+        background-image: url('http://devwin.arhipkin.com/phucet-botanic/images/P1060007.JPG')
+}
+#lnk60:focus, #lnk60:hover:after {
+        background-image: url('http://devwin.arhipkin.com/phucet-botanic/images/P1060008.JPG')
+}
+#lnk61:focus, #lnk61:hover:after {
+        background-image: url('http://devwin.arhipkin.com/phucet-botanic/images/P1060009.JPG')
+}
+#lnk62:focus, #lnk62:hover:after {
+        background-image: url('http://devwin.arhipkin.com/phucet-botanic/images/P1060010.JPG')
+}
+#lnk63:focus, #lnk63:hover:after {
+        background-image: url('http://devwin.arhipkin.com/phucet-botanic/images/P1060011.JPG')
+}
+#lnk64:focus, #lnk64:hover:after {
+        background-image: url('http://devwin.arhipkin.com/phucet-botanic/images/P1060012.JPG')
+}
+#lnk65:focus, #lnk65:hover:after {
+        background-image: url('http://devwin.arhipkin.com/phucet-botanic/images/P1060013.JPG')
+}
+#lnk66:focus, #lnk66:hover:after {
+        background-image: url('http://devwin.arhipkin.com/phucet-botanic/images/P1060017.JPG')
+}
+#lnk67:focus, #lnk67:hover:after {
+        background-image: url('http://devwin.arhipkin.com/phucet-botanic/images/P1060018.JPG')
+}
